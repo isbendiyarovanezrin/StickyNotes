@@ -3,6 +3,7 @@
   --bg-clr: #d8b5f01a;
   --scrollbar-shadow-clr: #00000075;
   --note-shadow-clr: #0000003a;
+  --highlight-color: #38454a24;
   --white: #ffffff;
   --black: #000000;
   --transparent-rangoon-green: #1d181d93;
@@ -167,6 +168,7 @@ textarea::-webkit-scrollbar {
   border-radius: 0.1rem;
   word-break: break-all;
   cursor: pointer;
+  -webkit-tap-highlight-color: var(--highlight-color);
   box-shadow: var(--note-shadow-clr) 0 0.2rem 0.8rem;
 }
 
