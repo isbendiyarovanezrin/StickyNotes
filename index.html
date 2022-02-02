@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sticky Notes</title>
+
+    <!-- required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section id="modal">
+        <div class="modal-content">
+          <textarea
+            id="user-input"
+            maxlength="150"
+            placeholder="Note..."
+            autofocus
+          ></textarea>
+          <i class="fas fa-times" id="close"></i>
+        </div>
+      </section>
+      <header>
+        <h1 class="title">
+          <img src="img/favicon.ico" alt="notes" class="logo" />
+          Sticky Notes
+        </h1>
+        <button id="btn">Add Note</button>
+      </header>
+      <main>
+        <div id="notes"></div>
+      </main>
+    </div>
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
