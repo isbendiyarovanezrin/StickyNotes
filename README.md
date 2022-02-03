@@ -2,7 +2,7 @@
 
 ### Sticky Notes📝
 
-#### You can view the project [here](https://isbendiyarovanezrin.github.io/StickyNotes)
+#### You can view the project [here](https://isbendiyarovanezrin.github.io/StickyNotes).
 
 ##### Preview
 
