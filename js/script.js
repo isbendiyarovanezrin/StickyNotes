@@ -1,3 +1,5 @@
+"use strict";
+
 const randomColors = [
   "var(--lavender)",
   "var(--baby-blue)",
